@@ -14,7 +14,7 @@
         <span class="text-gradient">Tecnológico</span>
       </h2>
       
-      <!-- Grid de tecnologías: 4 columnas x 3 filas -->
+      <!-- Grid de tecnologías: 4 columnas en desktop, 2 en tablet, 1 en móvil -->
       <div 
         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 max-w-6xl mx-auto"
         :class="{ 'animate-on-scroll': isVisible, visible: isVisible }"
@@ -43,23 +43,35 @@ let observer = null
 const technologies = ref([
   // Lenguajes de programación
   { name: 'JavaScript', imageUrl: techImages['JavaScript'] },
-  { name: 'Python', imageUrl: techImages['Python'] },
-  
+  { name: 'TypeScript', imageUrl: techImages['TypeScript'] },
+  { name: 'PHP', imageUrl: techImages['PHP'] },
+
   // Backend
+  { name: 'Laravel', imageUrl: techImages['Laravel'] },
   { name: 'Node.js', imageUrl: techImages['Node.js'] },
   { name: 'Express.js', imageUrl: techImages['Express.js'] },
-  { name: 'REST API', imageUrl: techImages['REST API'] },
-  
-  // Bases de datos
-  { name: 'MongoDB', imageUrl: techImages['MongoDB'] },
+  { name: 'Arquitectura RESTful', imageUrl: techImages['Arquitectura RESTful'] },
 
-  
   // Frontend
+  { name: 'Angular', imageUrl: techImages['Angular'] },
+  { name: 'Vue.js', imageUrl: techImages['Vue.js'] },
   { name: 'HTML5', imageUrl: techImages['HTML5'] },
   { name: 'CSS3', imageUrl: techImages['CSS3'] },
-  { name: 'Vue.js', imageUrl: techImages['Vue.js'] },
-  { name: 'Tailwind CSS', imageUrl: techImages['Tailwind CSS'] },
-  
+  { name: 'Fetch API', imageUrl: techImages['Fetch API'] },
+
+  // Bases de datos
+  { name: 'PostgreSQL', imageUrl: techImages['PostgreSQL'] },
+  { name: 'MongoDB', imageUrl: techImages['MongoDB'] },
+  { name: 'pgAdmin', imageUrl: techImages['pgAdmin'] },
+
+  // Automatización & IA
+  { name: 'n8n', imageUrl: techImages['n8n'] },
+  { name: 'Inteligencia Artificial', imageUrl: techImages['Inteligencia Artificial'] },
+
+  // Infraestructura & DevOps
+  { name: 'Docker', imageUrl: techImages['Docker'] },
+  { name: 'Docker Compose', imageUrl: techImages['Docker Compose'] },
+
   // Control de versiones
   { name: 'Git', imageUrl: techImages['Git'] },
   { name: 'GitHub', imageUrl: techImages['GitHub'] },

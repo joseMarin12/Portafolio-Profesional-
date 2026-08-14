@@ -21,7 +21,7 @@
           :class="{ visible: isVisible }"
         >
           <p class="text-gray-300 text-lg sm:text-xl leading-relaxed">
-            Soy un <span class="text-electric-blue font-semibold">Tecnólogo en Análisis y Desarrollo de Software</span> en formación por el SENA, con un enfoque integral que combina la lógica robusta con la creatividad en el diseño de soluciones
+            Soy un <span class="text-electric-blue font-semibold">Tecnólogo en Análisis y Desarrollo de Software</span>, con un enfoque integral que combina la lógica robusta con la creatividad en el diseño de soluciones
           </p>
           
           <p class="text-gray-400 text-base sm:text-lg leading-relaxed">
